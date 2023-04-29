@@ -1,11 +1,4 @@
 terraform {
-  # cloud {
-  #   organization = "amirmarmul"
-  #   workspaces {
-  #     name = "learn-terraform-aws-instance"
-  #   }
-  # }
-
   required_providers {
     aws = {
       source  = "hashicorp/aws"
