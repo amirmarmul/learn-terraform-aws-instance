@@ -1,13 +1,13 @@
 variable "aws_region" {
   description = "AWS region"
-  type = string
-  default = "ap-southeast-1"
+  type        = string
+  default     = "ap-southeast-1"
 }
 
 variable "ami" {
   description = "ID of the AMI to provision. Default is Ubuntu Server 20.04 LTS (HVM)"
-  type = string
-  default = "ami-062550af7b9fa7d05"
+  type        = string
+  default     = "ami-062550af7b9fa7d05"
 }
 
 variable "instance_type" {
